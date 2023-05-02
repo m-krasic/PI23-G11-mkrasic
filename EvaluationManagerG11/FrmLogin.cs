@@ -17,5 +17,12 @@ namespace EvaluationManagerG11 {
         private void txtUsername_TextChanged(object sender, EventArgs e) {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e) {
+            if (txtUsername.Text == "") {
+
+                MessageBox.Show("korisničko ime nije unešeno!", MessageBoxButtons.OK, MessageBoxIcon.Error); 
+            }
+        }
     }
 }
