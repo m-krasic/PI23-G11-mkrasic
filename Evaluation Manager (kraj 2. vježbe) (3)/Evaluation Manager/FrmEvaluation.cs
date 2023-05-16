@@ -27,8 +27,9 @@ namespace Evaluation_Manager {
         public FrmEvaluation(Student selectedStudent, Student student)
         {
             InitializeComponent();
-            student = selectedStudent;
-            
+            this.selectedStudent = selectedStudent;
+            //student = selectedStudent;
+
         }
 
         private void FrmEvaluation_Load(object sender, EventArgs e)
