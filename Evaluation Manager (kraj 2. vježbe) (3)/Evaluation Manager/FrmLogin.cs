@@ -46,5 +46,10 @@ namespace Evaluation_Manager
                 }
             }
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
